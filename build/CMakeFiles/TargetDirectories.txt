@@ -1,0 +1,3 @@
+C:/Users/abhii/kanban-tool/build/CMakeFiles/kanban-tool.dir
+C:/Users/abhii/kanban-tool/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/abhii/kanban-tool/build/CMakeFiles/ZERO_CHECK.dir

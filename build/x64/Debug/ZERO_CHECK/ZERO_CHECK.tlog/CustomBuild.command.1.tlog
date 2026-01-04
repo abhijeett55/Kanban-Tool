@@ -1,0 +1,10 @@
+^C:\USERS\ABHII\KANBAN-TOOL\BUILD\CMAKEFILES\BC46365E490327DF767E785875A3B9EF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/abhii/kanban-tool -BC:/Users/abhii/kanban-tool/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/abhii/kanban-tool/build/KanbanCli.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
