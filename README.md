@@ -15,7 +15,7 @@ With its **intuitive interface** and **fast performance**, Kanban allows you to 
 ## ⚙️ Installation
 
 ### 🧩 Prerequisites
-Before you begin, ensure you have **Rust** and **Cargo** installed on your system.  
+Before you begin, ensure you have **MSVC** and **GNU-gcc** installed on your system.  
 You can install them using [Rustup](https://rustup.rs/):
 
 ```bash
