@@ -1,6 +1,6 @@
 # 🗂️ Kanban
 
-A lightweight, command-line **Kanban board** written in **Rust**.
+A lightweight, command-line **Kanban board** written in **Cpp**.
 
 ---
 
@@ -24,27 +24,27 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ```bash
 git clone <repository-url>
-cd kanban
-cargo build --release
+cd kanban-tool
+mkdir build
+
+cmake ..
+cmake --build .
 
 ---
 <img width="786" height="199" alt="image" src="https://github.com/user-attachments/assets/a3cce4ae-b58d-46df-9901-4c3682e9569e" />
 ---
 ```bash
 # Show the current board
-kanban show
+kanban-tool show
 
 # Add a new task
-kanban add "Implement new feature"
-
-# Promote a task to the next column
-kanban promote 1
+kanba-tool add "Implement new feature"
 
 # Configure settings
-kanban configure
+kanban-tool configure
 
 # Delete a task
-kanban delete 2
+kanban-tool delete 2
 ```
 
 
